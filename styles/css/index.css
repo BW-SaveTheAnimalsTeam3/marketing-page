@@ -189,11 +189,29 @@ section {
   margin-left: 5%;
   padding: 5% 0;
 }
+@media (max-width: 500px) {
+  section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 section .donators {
   width: 30%;
 }
+@media (max-width: 500px) {
+  section .donators {
+    width: 90%;
+  }
+}
 section .campaigns {
   width: 30%;
+}
+@media (max-width: 500px) {
+  section .campaigns {
+    width: 90%;
+  }
 }
 .aboutTitle {
   text-align: center;
@@ -203,6 +221,11 @@ section .campaigns {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
+}
+@media (max-width: 500px) {
+  .AboutSection {
+    width: 90%;
+  }
 }
 .teamlead,
 .unit3,

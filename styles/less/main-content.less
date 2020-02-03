@@ -16,11 +16,20 @@ section{
     width: 90%;
     margin-left: 5%;
     padding: 5% 0;
+    @media @phone{
+        .flex(space-around,center,column);
+    } 
     .donators{
         width: 30%;
+        @media @phone{
+            width: 90%;
+        }
     }
     .campaigns{
         width: 30%;
+        @media @phone{
+            width: 90%;
+        }
     }
 }
 
@@ -29,7 +38,10 @@ text-align: center;
 }
 
 .AboutSection{
-    .flex(flex-start,flex-start,column)
+    .flex(flex-start,flex-start,column);
+    @media @phone{
+        width: 90%;
+    }
 }
 
 .teamlead, .unit3, .unit2, .unit1{
