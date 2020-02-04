@@ -131,6 +131,23 @@ html {
 }
 h1 {
   font-size: 5rem;
+  animation-name: head;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes head {
+  0% {
+    color: black;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: black;
+  }
 }
 h2 {
   font-size: 2.5rem;
@@ -232,4 +249,12 @@ section .campaigns {
 .unit2,
 .unit1 {
   margin: 5% 40%;
+}
+.teamlead:hover,
+.unit3:hover,
+.unit2:hover,
+.unit1:hover {
+  background-color: olivedrab;
+  padding: 3%;
+  border: solid 1px #37461e;
 }
