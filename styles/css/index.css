@@ -197,11 +197,11 @@ section {
     flex-direction: column;
   }
 }
-section .donators {
+section .supporters {
   width: 30%;
 }
 @media (max-width: 500px) {
-  section .donators {
+  section .supporters {
     width: 90%;
   }
 }
